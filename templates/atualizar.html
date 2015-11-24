@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="static/css/style1.css">
+
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="static/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		<div class="page-header">
+			<h1>Atualizar Funcionários</h1>
+		</div>
+		<div class="panel-body">
+			<form class="navbar-form navbar-left" method="POST" action="">
+				<table>
+						<tr>
+							<td>Nome:</td>
+							<td><input type="text" class="form-control" name="nome"></td>
+						</tr>
+						<tr>
+							<td>Email:</td>
+							<td><input type="text" class="form-control" name="email"></td>
+						</tr>
+						<tr>
+							<td>Telefone:</td>
+							<td><input type="text" class="form-control" name="telefone"></td>
+						</tr>
+						<tr>
+							<td>Salário Mensal:</td>
+							<td><input type="text" class="form-control" name="salmensal"></td>
+						</tr>
+						<tr>
+							<td>Bônus:</td>
+							<td><input type="text" class="form-control" name="bonus"></td>
+						</tr>
+					</table><br>
+				<input type="submit" class="btn btn-primary btn-lg" value="Atualizar">
+				<a href="{{ url_for('lista') }}"><input type="button" class="btn btn-primary btn-lg" value="Voltar"></a>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+	background-image: url("/static/images/fundo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+        background-position: 50% 90%;
+}
+
+.page-header{
+	text-align: center;
+	font-family: "Lobster"
+}
+
+.btn-group{
+	margin: 50px;
+	margin-left:430px;	
+}
